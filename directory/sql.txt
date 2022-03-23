@@ -1,0 +1,14 @@
+drop table if exists directory;
+
+create table directory (
+  id integer auto_increment primary key,
+  school_name text,
+  address text, 
+  phone text,
+  email text,
+  website text,
+  other_information text
+);  
+
+alter table directory add fulltext directory_index 
+ (school_name, address, phone, email, website, other_information);

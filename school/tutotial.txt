@@ -1,0 +1,76 @@
+Design Decisions while building acadbase:
+=====================================================
+1. KISS (Keep It Simple Stupid)
+2. Less is More 
+  (Concentrate only on the most important features and leave everything thing else out.
+   Except of course, if a lot of customers actually want a particular feature.)
+3. Make it fast and secure. 
+
+
+What happens when a User Sign's up? (Simplified version)
+=============================================================
+1. School name and email is added to the DB.
+2. If a certain School's name is not in the directory it is added. 
+   NB: Later on, whenever school information is updated, directory information is also updated. 
+   
+3. Create's a user using the email and assigns a proprietor access (Can access everything) to it. (May be no longer relevant)
+4. Create's a General Ledger account for the school to track payments made later on.
+5. Give's the School a "1 month free subscription".
+6. Adds the following class types to the school: Nursery, Primary, JSS, SSS.
+7. Adds 4 sample classes to the school: Nursery 1, Class1, JSS1A, SSS1A
+8. Adds two subjects (Mathematics and English) to each sample class.
+9. Adds a session using the current date. 
+  So if for instance we are in 2012, it will create 2011/2012 session.
+10. Adds First, Second and Third term to this session. 
+11. Sends an email to the user.
+12. Automatically logs in the user to "Test Drive" the software.
+13. Brings up a popup, to choose Session/Term/Class. 
+
+
+A brief explanation of some of the menus that may not be clear
+================================================================
+Promote/Demote: Promotes or Demotes Students. 
+        A session to promote/demote to must exist before the actual action is taken.
+						
+Result: You can view Class results and then drill down to the actual result of the 
+        Student by clicking the Student's name. You can also sort the Student's result
+		by any of the headers (e.g., Position, Total, Average, Subject scores).
+		(***Will have to find a way to make this very very obvious)
+		
+		Report Card(s) for third term shows cummulative results. 
+		
+Academic History: Same as the "Check Result" module.
+		
+Specify School Fees: Specify a school fees amount for this Session/Term/Class.
+
+Enter Fees: You can both enter school fees and view Student's financial record. 
+        Click on Student's name to view Student's record. (***Will have to find a way to make this very very obvious)
+		Part payment of School Fees can be recorded. 
+		You can also void School Fees that has been previously paid.
+        
+Financial History: Same as Academic History, but for financial records.
+
+School Information: Any update made here is reflected in the School directory as well.
+       Uploaded school logo is also reflected in the directory.
+	   If a user changes the School's name here, then that changed school name
+	   should be used to login next time.
+	   (***Will have to find a way to make this very very obvious)
+				
+Term: You can not add Terms individually. They are added as Sessions are added.
+	  This is where you also specify the number of "Times School Open".
+	  
+Users: Basic functionality. You can change passwords and change pins. 
+
+		
+Test Criteria
+=======================
+Personally re-entered first, second, third term academic information for two Classes. (Fosla Academy)
+Promoted them to a new session. 
+Tested the pins to make sure they displayed the correct report card, for each student.
+Todo: Re-enter financial information for first, second and third term for two classes.
+
+Todo
+==========
+1. Class result for third term should contain cummulative result
+2. Acadbase offline and synching.
+3. Screencast Video tutorial

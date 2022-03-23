@@ -1,0 +1,9 @@
+student records
+1. Firstname
+last name
+middle name
+height
+playing position
+prefered leg(left, right, both
+sex
+helth/physical disability

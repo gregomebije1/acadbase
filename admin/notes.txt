@@ -1,0 +1,35 @@
+Receipt number for expenses
+Fix deleting of accounts whose parents are not 0
+Date selection for all the forms
+input validation for all the forms, 
+
+
+1. When making payments should allow for Cheque -- also make sure that the Debit/Credit entries are correct -- Done
+
+2. Audit trail for rollback transactions -- No need, because only Administrator has such an access. He is responsible for everything
+3. Tax report for taxes deduction from source 
+4. Journal memo - Journal description --  Done
+5. Allow the selection of accunting code -- Done -- Will enter codes
+6. Display logo on invoice  -- Done
+7. Fix payment report issues --- Done
+
+
+
+SouthWestern VPS
+
+1. Show all outstanding balances for a client over a specified period
+2. Print invoices for the outstanding balances of a particular client over a specified period. 
+3. Show all payments made by a Client over a specified period.
+4. Show a report containing VAT and WHT for a particular client over a specified period.
+5. Show income received from sales of other items
+6. show expenses made in a petty cash book
+
+
+Change header to profile group
+
+1. Undoing payments made
+2. Making sure that the total amount(s) entered is not more than
+   'sales amount' + 'vat' + 'wht'
+3. Automate bill numbers
+4. Encoding input and output
+5. Testing

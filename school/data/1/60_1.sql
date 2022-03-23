@@ -1,0 +1,16 @@
+INSERT INTO fee_class(id, session_id, term_id, class_id, amount, school_id) values (1, 60, 178, 1,  '0', 1);
+INSERT INTO fee_class(id, session_id, term_id, class_id, amount, school_id) values (2, 60, 179, 1,  '0', 1);
+INSERT INTO fee_class(id, session_id, term_id, class_id, amount, school_id) values (3, 60, 180, 1,  '0', 1);
+INSERT INTO fee_class(id, session_id, term_id, class_id, amount, school_id) values (4, 60, 178, 1,  '0', 1);
+INSERT INTO fee_class(id, session_id, term_id, class_id, amount, school_id) values (5, 60, 179, 1,  '0', 1);
+INSERT INTO fee_class(id, session_id, term_id, class_id, amount, school_id) values (6, 60, 180, 1,  '0', 1);
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (1, 52, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (2, 53, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (3, 54, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (4, 55, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (5, 56, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (6, 57, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (7, 58, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (8, 59, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (9, 60, 1,  '',  '',  '',  '',  '', '');
+INSERT INTO student_temp(id, student_id, class_id, first_term_times_present, first_term_times_absent, second_term_times_present, second_term_times_absent, third_term_times_present, third_term_times_absent) values (10, 61, 1,  '',  '',  '',  '',  '', '');

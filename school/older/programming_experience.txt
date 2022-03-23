@@ -1,0 +1,44 @@
+- The ability to deliver begins with me 
+- Output specification. 
+- Understand your data structures
+- Validate all input. No assumptions on input data.
+- Break problem into small steps and solve them
+   one step at a time. 
+- Concentrate on the most important problems first
+- Resue solutions as much as possible.
+- Is your code readable? 
+- Read code, to reuse solutions.
+- You haven't built a product until
+   users start using it.
+- The real test of your software lies in 
+  your users.
+- Always make the software as easy to use
+  as possible.
+- You are not here to be a better programmer, 
+   you are here to build and deliver software
+- Code succintly, avoid verbose.
+- The only way to learn how to program is to program. 
+- Want to learn a language, build/re-write a product in it.
+   (the product could be a language interpreter or compiler)
+- Learn how to program by reading other people's code. 
+- Learn how to read code, by extending the software, 
+  or fixing a bug. 
+-  Your only credentials are the problems you have 
+    solved for other people by using your product.
+	
+
+PHP PERFORMANCE TIPS
+Profile your code to pinpoint bottlenecks
+Upgrade your version of PHP (PHP 5.2.X)
+Use caching (memcache, smarty)
+Use output buffering
+Avoid writing naive setters and getters
+Don't copy variables for no reason
+Avoid doing SQL queries within a loop
+
+$userData = array();
+foreach ($userList as $user) {
+    $userData[] = '("' . $user['first_name'] . '", "' . $user['last_name'] . '")';
+ }
+$query = 'INSERT INTO users (first_name,last_name) VALUES' . implode(',', $userData);
+mysql_query($query);

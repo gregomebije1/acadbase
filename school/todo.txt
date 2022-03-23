@@ -1,0 +1,19 @@
+1. Dates for Session and Term should be drop downs
+2. A quicker way to enter attendance for a particular semester see "Entering Comments"
+3. The tablesorter does not appear properly for the number of rows
+4. Search is not working and not properly aligned. ==> Done
+5. The alignment of the content window - I have a fix
+6. Allow the printing of all report cards for a particular class. 
+7. Uploading scores for a particular Subject
+8. Backup and restore
+9. SESS_ID session
+10. Error statement for when entering non-numeric scores
+12. Uploading Non-academic information for a particular student
+
+
+FOSLA ACADEMY
+Along Karshi/Karu Road Opp. Karshi Police Station Beside S.C.C Karshi F.C.T Abuja Nigeria
++2348076748877
+foslaacademy@yahoo.com
+www.foslaacademy.com.com
+a0a36fc47034576ce80a1550afe5a1165f481574
